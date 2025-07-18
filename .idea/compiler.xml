@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zzy-easy-RPC" />
         <module name="example-provider" />
         <module name="example-common" />
         <module name="example-consumer" />
+        <module name="zzy-RPC-core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zzy-RPC-easy" target="1.8" />
+      <module name="zzy-RPC-easy (1)" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
