@@ -9,30 +9,39 @@
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/io.vertx/vertx-core -->
+
+        <!-- Vert.x 核心 -->
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-core</artifactId>
             <version>4.5.1</version>
         </dependency>
-        <!-- https://doc.hutool.cn/ -->
+
+        <!-- Hutool 工具库 -->
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
             <version>5.8.16</version>
         </dependency>
-        <!-- https://projectlombok.org/ -->
+
+        <!-- Lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.30</version>
             <scope>provided</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+
+        <!-- SLF4J API (Vert.x 4.x 已依赖，无需显式声明) -->
+
+        <!-- Logback 实现 (确保版本兼容SLF4J 2.0.x) -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.3.12</version>
         </dependency>
+
+        <!-- JUnit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -40,8 +49,8 @@
             <scope>test</scope>
         </dependency>
 
-    </dependencies>
 
+    </dependencies>
 
 
 </project>
