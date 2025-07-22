@@ -1,5 +1,6 @@
 package com.zzy.zzyrpc.config;
 
+import com.zzy.zzyrpc.serializer.SerializerKeys;
 import lombok.Data;
 
 @Data
@@ -24,6 +25,8 @@ public class RpcConfig {
      * 模拟调用
      */
     private boolean mock=false;
+
+    private String serializer= SerializerKeys.JSON;
 
 
 }
