@@ -1,0 +1,2 @@
+json=com.zzy.zzyrpc.serializer.JsonSerializer
+kryo=com.zzy.zzyrpc.serializer.KryoSerializer
